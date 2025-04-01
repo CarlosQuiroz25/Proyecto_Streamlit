@@ -130,7 +130,7 @@ with col2:
     st.markdown('<h3 style="color: #0066cc; margin-top: 0px;">Carlos Alberto Quiroz Muñoz</h3>', unsafe_allow_html=True)
     st.markdown('<p style="margin-top: 10px;">Programa: <span style="color: #0066cc; font-weight: bold;">Desarrollo de Software</span></p>', unsafe_allow_html=True)
     st.markdown('<p>Semestre: <span style="color: #0066cc; font-weight: bold;">2025-1</span></p>', unsafe_allow_html=True)
-    st.markdown('<p>Repositorio: <a href="https://github.com/username/proyecto-ntp" target="_blank" style="color: #0066cc; font-weight: bold; text-decoration: none;">GitHub</a></p>', unsafe_allow_html=True)
+    st.markdown('<p>Repositorio: <a href="https://github.com/CarlosQuiroz25/Proyecto_Streamlit" target="_blank" style="color: #0066cc; font-weight: bold; text-decoration: none;">GitHub</a></p>', unsafe_allow_html=True)
    
 
 

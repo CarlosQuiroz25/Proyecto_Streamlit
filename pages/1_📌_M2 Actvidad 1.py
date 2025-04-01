@@ -128,12 +128,12 @@ st.dataframe(df_csv)
 # 6. Excel local
 st.subheader("Datos desde Excel")
 code = '''
-df_excel = pd.read_excel("data.xlsx")
+df_excel = pd.read_excel("data/data.xlsx")
 st.dataframe(df_excel)'''
 
 st.code(code, language="python")
 st.write('Resultado:')
-df_excel = pd.read_excel("data.xlsx")
+df_excel = pd.read_excel("data/datos.xlsx")
 st.dataframe(df_excel)
 
 # 7. JSON
@@ -146,7 +146,7 @@ st.dataframe(df_json)'''
 
 st.code(code, language="python")
 st.write('Resultado:')
-with open("data.json") as f:
+with open("data/data.json") as f:
     data_json = json.load(f)
 df_json = pd.DataFrame(data_json)
 st.dataframe(df_json)

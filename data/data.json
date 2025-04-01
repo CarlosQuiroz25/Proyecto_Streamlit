@@ -1,0 +1,72 @@
+[
+    {
+        "Producto":"Laptop",
+        "Marca":"Dell",
+        "Precio":1200,
+        "Stock":15,
+        "Descuento (%)":10
+    },
+    {
+        "Producto":"Tel\u00e9fono",
+        "Marca":"Apple",
+        "Precio":900,
+        "Stock":30,
+        "Descuento (%)":5
+    },
+    {
+        "Producto":"Tablet",
+        "Marca":"Samsung",
+        "Precio":500,
+        "Stock":25,
+        "Descuento (%)":15
+    },
+    {
+        "Producto":"Monitor",
+        "Marca":"LG",
+        "Precio":300,
+        "Stock":10,
+        "Descuento (%)":20
+    },
+    {
+        "Producto":"Teclado",
+        "Marca":"Logitech",
+        "Precio":80,
+        "Stock":50,
+        "Descuento (%)":8
+    },
+    {
+        "Producto":"Mouse",
+        "Marca":"Razer",
+        "Precio":60,
+        "Stock":45,
+        "Descuento (%)":12
+    },
+    {
+        "Producto":"Impresora",
+        "Marca":"HP",
+        "Precio":200,
+        "Stock":8,
+        "Descuento (%)":5
+    },
+    {
+        "Producto":"Auriculares",
+        "Marca":"Sony",
+        "Precio":150,
+        "Stock":20,
+        "Descuento (%)":18
+    },
+    {
+        "Producto":"C\u00e1mara",
+        "Marca":"Canon",
+        "Precio":400,
+        "Stock":12,
+        "Descuento (%)":7
+    },
+    {
+        "Producto":"Smartwatch",
+        "Marca":"Garmin",
+        "Precio":250,
+        "Stock":18,
+        "Descuento (%)":10
+    }
+]
