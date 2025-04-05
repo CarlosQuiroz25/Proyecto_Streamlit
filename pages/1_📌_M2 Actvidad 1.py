@@ -117,23 +117,23 @@ st.dataframe(df_personas)
 # 5. CSV local
 st.subheader("Datos desde CSV")
 code = '''
-df_csv = pd.read_csv("data.csv")
+df_csv = pd.read_csv("static\datasets\data.csv")
 st.dataframe(df_csv)'''
 
 st.code(code, language="python")
 st.write('Resultado:')
-df_csv = pd.read_csv("data/data.csv")
+df_csv = pd.read_csv("static\datasets\data.csv")
 st.dataframe(df_csv)
 
 # 6. Excel local
 st.subheader("Datos desde Excel")
 code = '''
-df_excel = pd.read_excel("data/data.xlsx")
+df_excel = pd.read_excel("static\datasets\datos.xlsx")
 st.dataframe(df_excel)'''
 
 st.code(code, language="python")
 st.write('Resultado:')
-df_excel = pd.read_excel("data/datos.xlsx")
+df_excel = pd.read_excel("static\datasets\datos.xlsx")
 st.dataframe(df_excel)
 
 # 7. JSON
@@ -146,7 +146,7 @@ st.dataframe(df_json)'''
 
 st.code(code, language="python")
 st.write('Resultado:')
-with open("data/data.json") as f:
+with open("static\datasets\data.json") as f:
     data_json = json.load(f)
 df_json = pd.DataFrame(data_json)
 st.dataframe(df_json)
@@ -183,7 +183,7 @@ conn.close()'''
 
 st.code(code, language="python")
 st.write('Resultado:')
-conn = sqlite3.connect("estudiantes.db")
+conn = sqlite3.connect("static\datasets\estudiantes.db")
 cursor = conn.cursor()
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS estudiantes (
